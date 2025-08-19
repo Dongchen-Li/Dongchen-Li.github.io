@@ -1,0 +1,57 @@
+:root{
+  --bg:#ffffff;
+  --text:#1a1f2b;
+  --muted:#5b6475;
+  --brand:#0d47a1;
+  --card:#f6f8fb;
+  --line:#e6eaf2;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  color:var(--text); background:var(--bg);
+}
+
+.container{max-width:1100px; margin:0 auto; padding:0 20px}
+
+.site-header{
+  border-bottom:1px solid var(--line);
+  background:#fafbfe;
+}
+.site-header .container{
+  display:flex; align-items:center; justify-content:space-between; padding:18px 20px;
+}
+.brand h1{margin:0; font-size:24px}
+.subtitle{margin:4px 0 0; color:var(--muted); font-size:14px}
+.top-nav a{
+  text-decoration:none; color:var(--brand); margin-left:16px; font-weight:600
+}
+.top-nav a.active{border-bottom:2px solid var(--brand); padding-bottom:2px}
+
+.layout{display:grid; grid-template-columns:300px 1fr; gap:24px; padding:24px 20px}
+@media (max-width:920px){ .layout{grid-template-columns:1fr} }
+
+.sidebar .card{
+  background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; margin-bottom:16px
+}
+.card.small h3{margin:0 0 8px}
+.avatar{width:100%; border-radius:12px; border:1px solid var(--line); display:block}
+.name{font-weight:700; margin-top:10px}
+.role,.unit,.meta{color:var(--muted); font-size:14px; margin-top:4px}
+.links{display:flex; flex-wrap:wrap; gap:8px; margin-top:10px}
+.links a{color:var(--brand); text-decoration:none; border:1px solid var(--line); padding:6px 10px; border-radius:999px}
+.links a:hover{background:#eef3ff}
+
+.content .block{
+  background:#fff; border:1px solid var(--line); border-radius:14px; padding:18px; margin-bottom:16px
+}
+.content h2{margin:0 0 8px; font-size:20px}
+.tight{margin:0; padding-left:18px}
+.btn{
+  display:inline-block; text-decoration:none; color:#fff; background:var(--brand);
+  padding:8px 14px; border-radius:10px; margin-right:8px; font-weight:600
+}
+.btn.ghost{background:transparent; color:var(--brand); border:1px solid var(--brand)}
+.site-footer{border-top:1px solid var(--line); padding:14px 0; color:var(--muted); font-size:14px; margin-top:10px; background:#fafbfe}
