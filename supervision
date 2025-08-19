@@ -49,19 +49,9 @@
 
     <section class="content">
       <article class="block">
-        <h2>Courses</h2>
+        <h2>Current PhD Students</h2>
         <ul class="tight">
-            <li><strong>MATH 2280 – The Mathematical Theory of Interest</strong><br>
-        Fall 2023, Fall 2024
-    </li>
-    <li><strong>MATH 4430 / 6602 – Stochastic Processes</strong><br>
-        Winter 2024, Fall 2024, Fall 2025
-    </li>
-    <li><strong>MATH 2281 – Models of Financial Economics</strong><br>
-        Winter 2025, Winter 2026
-    </li>
-    <li><strong>MATH 4282 – Mathematics for Life Contingencies 3</strong><br>
-        Fall 2025
+            <li><li>
         </ul>
       </article>
 
