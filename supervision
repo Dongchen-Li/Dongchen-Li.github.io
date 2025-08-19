@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Research — Dongchen Li</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <h1>Dongchen Li</h1>
+      </div>
+      <nav class="top-nav">
+        <a href="index.html">Home</a>
+        <a href="supervision.html">Teaching</a>
+        <a href="research.html" class="active">Research</a>
+        <a href="teaching.html">Teaching</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container layout">
+    <aside class="sidebar">
+      <div class="card">
+        <img class="avatar" src="profile.jpg" alt="Profile photo">
+        <div class="name">Dongchen Li, Ph.D., ASA</div>
+        <div class="role">Assistant Professor</div>
+        <div class="unit">Department of Mathematics & Statistics York University</div>
+        <div class="meta">
+          <div>Toronto, Ontario, Canada</div>
+        </div>
+        <div class="links">
+          <a href="https://scholar.google.com/citations?user=kqFyJ64AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/dongchen-li-8801b13b" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      </div>
+            <div class="card small">
+        <h3>Contacts</h3>
+        <p>
+          Email: <a href="mailto:dcli@yorku.ca">dcli@yorku.ca</a><br>
+          Office: DB 2028, York University<br>
+          Address: 4700 Keele St, Toronto, ON
+        </p>
+      </div>
+    </aside>
+
+    <section class="content">
+      <article class="block">
+        <h2>Courses</h2>
+        <ul class="tight">
+            <li><strong>MATH 2280 – The Mathematical Theory of Interest</strong><br>
+        Fall 2023, Fall 2024
+    </li>
+    <li><strong>MATH 4430 / 6602 – Stochastic Processes</strong><br>
+        Winter 2024, Fall 2024, Fall 2025
+    </li>
+    <li><strong>MATH 2281 – Models of Financial Economics</strong><br>
+        Winter 2025, Winter 2026
+    </li>
+    <li><strong>MATH 4282 – Mathematics for Life Contingencies 3</strong><br>
+        Fall 2025
+        </ul>
+      </article>
+
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      © <span id="y"></span> Dongchen Li · Built with GitHub Pages
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
